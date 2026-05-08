@@ -152,7 +152,6 @@ const FAQ = () => {
         title="Nafplio Car Rental FAQ — Pickup, Insurance & Parking"
         description="# Frequently Asked Questions — Nafplio Car Rental This FAQ answers 12 common Nafplio car-rental questions with local route, insurance, and parking"
         canonical="https://nafplio-car-rental.com/nafplio-car-rental-faq"
-        jsonLd={[breadcrumbSchema, faqSchema]}
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />

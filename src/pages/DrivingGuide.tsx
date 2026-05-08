@@ -57,7 +57,6 @@ const DrivingGuide = () => {
         title="Driving in Argolis 2026 — Greek K.O.K. Rules"
         description="Driving in Argolis in 2026 is governed by Law 5209/2025, as amended by Law 5290/2026, and the practical effect for Nafplio car rentals is stricter"
         canonical="https://nafplio-car-rental.com/driving-in-nafplio"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />
