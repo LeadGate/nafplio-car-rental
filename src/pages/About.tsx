@@ -70,12 +70,12 @@ const AboutPage = () => {
       />
 
       <Section
-        icon={<Car className="w-6 h-6" />
-        <p className="text-gray-700 mb-4 leading-relaxed">
-          <strong>nafplio-car-rental.com is an independent car rental booking guide</strong> for Nafplio. <strong>nafplio-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
-        </p>}
+        icon={<Car className="w-6 h-6" />}
         title="Who We Are"
       >
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            <strong>nafplio-car-rental.com is an independent car rental booking guide</strong> for Nafplio. <strong>nafplio-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
+          </p>
           <p className="text-gray-700 mb-4 leading-relaxed">This site is published by a small remote editorial team, and the primary editor is Sarmat. Our research uses Greek-language sources such as anagnostis.org, argolikeseidiseis.gr, and kodiko.gr, plus official institutions such as ELSTAT and the Δήμος Ναυπλιέων when a statistic needs municipal confirmation.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">The editorial process is not desk-only — we drove the Athens-to-Nafplio corridor during the latest travel season to verify toll plazas and parking access near Akti Miaouli. We do not accept agency payments for ranking priority, and the published order is reviewed quarterly with source notes for each agency mention.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> A high review score is not proof of compliance, because Greek road and insurance rules can still apply after an accident. Under Bank of Greece Act 195/3 and Law 5209/2025, an insurer may examine statutory-third-party liability, excess/deductible, and preauthorisation conditions before approving a claim.</p></WarningBox>
