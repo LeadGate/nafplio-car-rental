@@ -3,17 +3,21 @@ import { Search } from "lucide-react";
 
 // Mobile-resilience pattern (memory: feedback_widget_mobile_resilience.md, 2026-05-08)
 // - requestIdleCallback defer (LCP/CLS budget)
-// - omit `&city=` when target city is not in Localrent widget API catalog
-//   (empty value → mobile picker; affiliate dashboard sample omits the key)
-// - visible fallback link to www.localrent.com for Telegram WebView / Safari ITP
-//   environments that block tpembd.com
 // - 8s descendant-count failure detector (widget renders via <div>+<a> only,
 //   so iframe/input/button/form selectors do NOT work)
+//
+// Nafplio is NOT in the Localrent widget catalog (verified 2026-05-08 via
+// widget.localrent.com/api/cities/18). Athens (id=61491) is the closest
+// major in-catalog city — ~140 km, standard Greek airport gateway for
+// Peloponnese trips. Previously `city` was OMITTED but the widget defaulted
+// to "Agios Nikolaos (Zakynthos)" — wrong island entirely (W20 visual audit
+// confirmed). Explicit city=61491 pre-selects Athens; safe for mobile
+// because the value is present, not empty.
 const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.nafplio-car-rental&powered_by=true&country=18&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+  "https://tpembd.com/content?trs=517071&shmarker=713621.nafplio-car-rental&powered_by=true&country=18&city=61491&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
 
-const FALLBACK_URL = "https://www.localrent.com/en/greece/nafplio/?marker=713621.nafplio";
-const FALLBACK_LABEL = "Or browse all Nafplio rentals on Localrent →";
+const FALLBACK_URL = "https://www.localrent.com/en/greece/athens/?marker=713621.nafplio";
+const FALLBACK_LABEL = "Or browse Athens / Peloponnese rentals on Localrent →";
 
 const AffiliateWidget = () => {
   const containerRef = useRef<HTMLDivElement>(null);
