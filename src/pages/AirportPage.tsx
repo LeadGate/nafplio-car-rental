@@ -164,7 +164,7 @@ const AirportPage = () => {
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Local geography and landmarks that affect pickup planning:</strong> Argolis, Peloponnese, Argolic Gulf, Mycenae, Epidaurus, Tiryns, Karathona, Tolo, Porto Heli, Nemea, Asklipiou Avenue, Akti Miaouli, Bouboulinas, Syngrou 8, Palamidi Fortress, Bourtzi, and Akronafplia all appear in rental and route search behavior for Nafplio.</p>
           <h3 className="text-xl font-bold mt-6 mb-3">Internal links to continue planning</h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-            <li><a href="/nafplio-old-town-parking" className="text-primary underline hover:text-accent">Nafplio old-town parking guide</a></li>
+            <li><a href="/nafplio-old-town-parking/" className="text-primary underline hover:text-accent">Nafplio old-town parking guide</a></li>
             <li><strong>Step-by-step Athens airport drive guide</strong></li>
             <li><strong>Mycenae and Epidaurus by car</strong></li>
           </ul>

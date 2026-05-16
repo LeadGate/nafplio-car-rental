@@ -102,7 +102,7 @@ const AboutPage = () => {
       >
           <p className="text-gray-700 mb-4 leading-relaxed">Nafplio Car Rental tracks the cost and logistics that affect a rental in Argolis, and the table below shows the main comparison inputs.</p>
           <DataTable headers={["Topic", "Source(s)", "Update Cadence"]} rows={[["Tolls Athens \u2192 Nafplio", "Olympia Odos + Moreas official tables", "Annual (1 January)"], ["Greek traffic fines", "Law 5209/2025 + \u03a6\u0395\u039a amendments", "When parliament publishes"], ["UNESCO ticket prices", "odysseus.culture.gr", "Annual (May reset)"], ["Local agency landscape", "Direct outreach + forum verification", "Quarterly"], ["Fuel benchmark", "fuelprices.gr / fuelo.net", "Monthly"]]} />
-          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio Car Rental also uses route and geography terms that matter for extraction and comparison, including Argolic Gulf, Karathona, Tolo, Porto Heli, Nemea, Asklipiou Avenue, Bouboulinas, Syngrou 8, and Akti Miaouli. For a step-by-step route breakdown, see <a href="/nafplio-airport-car-rental" className="text-primary underline hover:text-accent">the Athens airport drive guide</a> and <a href="/driving-in-nafplio" className="text-primary underline hover:text-accent">the Nafplio driving rules and fines guide</a>.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio Car Rental also uses route and geography terms that matter for extraction and comparison, including Argolic Gulf, Karathona, Tolo, Porto Heli, Nemea, Asklipiou Avenue, Bouboulinas, Syngrou 8, and Akti Miaouli. For a step-by-step route breakdown, see <a href="/nafplio-airport-car-rental/" className="text-primary underline hover:text-accent">the Athens airport drive guide</a> and <a href="/driving-in-nafplio/" className="text-primary underline hover:text-accent">the Nafplio driving rules and fines guide</a>.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">The local fleet mix influences comparison value, and Nafplio Car Rental tracks published or observed models such as Peugeot, Citroen, Fiat, Audi, Mercedes, Nissan, Fiat Panda, Skoda Octavia automatic, Opel Insignia, and Kia Sportage. Those models matter because small hatchbacks often fit city parking better, while automatic sedans can be more expensive on the same dates.</p>
       </Section>
 
@@ -128,7 +128,7 @@ const AboutPage = () => {
             <li><strong>Insurance disputes:</strong> Bank of Greece, Department of Insurance Supervision, using the relevant policy and claim reference.</li>
             <li><strong>Consumer complaints:</strong> Hellenic Police and the Hellenic Consumer Ombudsman, with support from the Δήμος Ναυπλιέων where a local business issue requires municipal follow-up.</li>
           </ul>
-          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio Car Rental also points readers to the current <a href="/driving-in-nafplio" className="text-primary underline hover:text-accent">2026 K.O.K. rules and penalties</a>, where Article 17 covers mobile phone use and Article 46 covers alcohol; old Law 2696/1999 article references are obsolete.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio Car Rental also points readers to the current <a href="/driving-in-nafplio/" className="text-primary underline hover:text-accent">2026 K.O.K. rules and penalties</a>, where Article 17 covers mobile phone use and Article 46 covers alcohol; old Law 2696/1999 article references are obsolete.</p>
       </Section>
 
       <Section
@@ -136,7 +136,7 @@ const AboutPage = () => {
         title="Contact Us"
         alt
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">For editorial corrections, Nafplio Car Rental asks readers to use the <a href="/contact" className="text-primary underline hover:text-accent">Contact page</a> and include “data correction” in the subject line. The team usually replies within 2–3 business days and aims to publish verified updates within 7 days, subject to source confirmation from ELSTAT, kodiko.gr, the Bank of Greece, or the relevant ministry.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">For editorial corrections, Nafplio Car Rental asks readers to use the <a href="/contact/" className="text-primary underline hover:text-accent">Contact page</a> and include “data correction” in the subject line. The team usually replies within 2–3 business days and aims to publish verified updates within 7 days, subject to source confirmation from ELSTAT, kodiko.gr, the Bank of Greece, or the relevant ministry.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Nafplio Car Rental makes the fastest corrections when readers attach a screenshot, date, and source URL, because those three details let editors verify a claim against a named agency such as odysseus.culture.gr or the Tmima Trochaias Tourismou Nafpliou.</p></InfoBox>
       </Section>
     </Layout>
