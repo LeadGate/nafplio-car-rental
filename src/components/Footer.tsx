@@ -13,9 +13,6 @@ const footerLinks = [
 
 const Footer = () => (
   <footer className="py-12" style={{ backgroundColor: "hsl(var(--footer-bg))", color: "hsl(var(--footer-foreground))" }}>
-      <p className="text-xs opacity-60 leading-relaxed mb-4 px-4 max-w-4xl mx-auto">
-        nafplio-car-rental.com is an independent car rental guide. We may earn a commission when you book through partner links or the booking widget. Final prices, availability, deposits, insurance terms and supplier conditions are provided by the booking partner or rental supplier.
-      </p>
     <div className="container mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         {/* Left — Brand */}
@@ -72,7 +69,7 @@ const Footer = () => (
         <p className="m-0 opacity-70">
           Affiliate disclosure: This site contains affiliate links. When you book through our links, we may earn a small commission at no extra cost to you.
         </p>
-        <p className="mt-2 opacity-50 text-xs">Last updated: April 2026</p>
+        <p className="mt-2 opacity-50 text-xs">Last updated: May 2026</p>
         <p className="mt-3 m-0">
           &copy; {new Date().getFullYear()} nafplio-car-rental.com &middot; All rights reserved
         </p>
