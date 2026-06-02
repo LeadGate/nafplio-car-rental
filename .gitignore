@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .vercel/
+.netlify-info.json
+.netlify
 .env
 .env.local
 .DS_Store
