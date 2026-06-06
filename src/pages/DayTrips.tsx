@@ -5,6 +5,7 @@ import AffiliateWidget from "@/components/AffiliateWidget";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Section from "@/components/Section";
 import ImageDivider from "@/components/ImageDivider";
+import DataTable from "@/components/DataTable";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import CompanyCard from "@/components/CompanyCard";
 import { Car, MapPin } from "lucide-react";
@@ -78,11 +79,14 @@ const DayTrips = () => {
         title="The Three Sites at a Glance — Tickets, Hours, and Access"
       >
           <p className="text-gray-700 mb-4 leading-relaxed">The Hellenic Ministry of Culture and hhticket.gr publish the official 2026 ticketing data for Mycenae, Epidaurus, and Tiryns, and the figures below are the ones to use for planning. Mycenae and Epidaurus each list a full ticket of €20 and a reduced ticket of €10, while Tiryns lists €10 full and €5 reduced; peak-season hours from 02.05.2026 run 08:00–20:00 for Mycenae and Epidaurus, and 08:30–15:30 year-round for Tiryns. There is no formal combo ticket covering all three sites together, even though they sit inside the UNESCO Argolis archaeological cluster.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Site | Full Ticket | Reduced | Hours | Combined Ticket Details | Free Admission Days |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| :-- | :-- | :-- | :-- | :-- | :-- |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Mycenae | €20 | €10 | 08:00–20:00 | Site + museum + Treasury of Atreus sold separately | 6 March, 18 April, 18 May, last weekend of September, 28 October, every 1st and 3rd Sunday Nov–Mar |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Epidaurus | €20 | €10 | 08:00–20:00 | Asklepieion + theatre + museum sold separately | Same as above |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Tiryns | €10 | €5 | 08:30–15:30 year-round | No combined ticket | Same as above |</p>
+          <DataTable
+            headers={["Site", "Full Ticket", "Reduced", "Hours", "Combined Ticket Details", "Free Admission Days"]}
+            rows={[
+              ["Mycenae", "€20", "€10", "08:00–20:00", "Site + museum + Treasury of Atreus sold separately", "6 March, 18 April, 18 May, last weekend of September, 28 October, every 1st and 3rd Sunday Nov–Mar"],
+              ["Epidaurus", "€20", "€10", "08:00–20:00", "Asklepieion + theatre + museum sold separately", "Same as above"],
+              ["Tiryns", "€10", "€5", "08:30–15:30 year-round", "No combined ticket", "Same as above"],
+            ]}
+          />
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Official closure dates:</strong> 1 January, 25 March, 1 May, Orthodox Easter Sunday, and 25–26 December.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Arriving at Mycenae before 10:00 gives you better light at the Lion Gate and less bus traffic, and the Ministry of Culture’s peak opening window supports that early start. For a quieter route back to Nafplio, combine the visit with a stop at <a href="/nafplio-old-town-parking/" className="text-primary underline hover:text-accent">Tiryns and the EO Argous–Nafpliou corridor</a>.</p></InfoBox>
       </Section>
@@ -130,17 +134,20 @@ const DayTrips = () => {
         title="Distances Quick Reference"
       >
           <p className="text-gray-700 mb-4 leading-relaxed">The table below gives the most useful drive distances from Nafplio for planning UNESCO visits, beach stops, and a wine detour. The figures align with the Argolis road network and the standard approach via the port, Asklipiou Avenue, or the Moreas A7.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Destination | Distance from Nafplio | Drive Time | Notes |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| :-- | :-- | :-- | :-- |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Mycenae | 21 km | 29 min | UNESCO site; large free car park |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Epidaurus | 26 km | 31 min | UNESCO site; large free car park |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Tiryns | 4 km | 10 min | UNESCO site; small free car park |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Argos | 12 km | 15 min | Ancient theatre and agora |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Tolo | 10 km | 15 min | Family beach village in Argolic Gulf |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Karathona Beach | 5 km | 10 min | Local swim stop; Blue Flag withdrawn July 2025 |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Nemea | 50 km | 50 min | Wine-route detour and ancient stadium |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Porto Heli | 76 km | 1h 30m | Gateway for Spetses ferry connections |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Athens (ATH airport) | 169 km | 2h 05m | Return or pickup route |</p>
+          <DataTable
+            headers={["Destination", "Distance from Nafplio", "Drive Time", "Notes"]}
+            rows={[
+              ["Mycenae", "21 km", "29 min", "UNESCO site; large free car park"],
+              ["Epidaurus", "26 km", "31 min", "UNESCO site; large free car park"],
+              ["Tiryns", "4 km", "10 min", "UNESCO site; small free car park"],
+              ["Argos", "12 km", "15 min", "Ancient theatre and agora"],
+              ["Tolo", "10 km", "15 min", "Family beach village in Argolic Gulf"],
+              ["Karathona Beach", "5 km", "10 min", "Local swim stop; Blue Flag withdrawn July 2025"],
+              ["Nemea", "50 km", "50 min", "Wine-route detour and ancient stadium"],
+              ["Porto Heli", "76 km", "1h 30m", "Gateway for Spetses ferry connections"],
+              ["Athens (ATH airport)", "169 km", "2h 05m", "Return or pickup route"],
+            ]}
+          />
           <InfoBox><p>💡 <strong>Tip:</strong> If you want to avoid rush-hour fuel stops, fill up in Argos before visiting Mycenae and Tiryns. A late-April 2026 snapshot showed Argos at €1.986–€2.018/L and nearby Nea Epidavros at €2.149/L, so the same tank can cost measurably less in town.</p></InfoBox>
       </Section>
 
