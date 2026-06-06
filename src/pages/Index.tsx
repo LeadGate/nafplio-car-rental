@@ -97,7 +97,7 @@ const Index = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> Cruise schedules can compress your rental window, so confirm the exact pickup time and return deadline in writing; a late return can trigger extra day charges even when the rental is only a few hours long.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/2.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -134,7 +134,7 @@ const Index = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> For a one-day archaeological loop, combine Mycenae and Epidaurus first, then return through Tiryns, because that sequence keeps the driving inside Argolis and limits backtracking on the EO Argous–Nafpliou road. Our full <a href="/day-trips-from-nafplio/" className="text-primary underline hover:text-accent">Mycenae and Epidaurus by-car routing</a> lays out the two-day split with ticket prices and free parking notes for each site.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/3.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

@@ -111,7 +111,7 @@ const DayTrips = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> If you want to stretch the day with a rental from Nafplio, ask for a compact model such as a Ford Fiesta, Hyundai i10, or Toyota Aygo for easier parking around the port and the archaeological sites. For families, a Skoda Octavia automatic, Opel Insignia, Kia Sportage, or similar Peugeot, Citroen, Fiat, Audi, Mercedes, or Nissan model gives more boot space without changing the route plan.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/3.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<MapPin className="w-6 h-6" />}
@@ -155,7 +155,7 @@ const DayTrips = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> For a festival evening, use the shuttle and leave the rental car parked near Nafplio rather than trying to chain it into a late dinner and post-show drive. The return congestion between 22:30 and 23:30 is a real time sink, and the bus keeps the evening simple.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/4.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

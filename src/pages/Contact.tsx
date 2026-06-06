@@ -87,7 +87,7 @@ const ContactPage = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Keep KTEL Argolidas at Syngrou 8 saved in your phone if you plan to use regional buses from Nafplio to Argos, Mycenae, or Epidaurus, because the office on Syngrou 8 can confirm departures and ticketing details.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/2.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<HelpCircle className="w-6 h-6" />}

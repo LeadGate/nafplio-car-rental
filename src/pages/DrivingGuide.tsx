@@ -96,7 +96,7 @@ const DrivingGuide = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> If the Hellenic Police record a plate-seizure offense, some agencies will preauthorise the full deductible or excess on the renter’s card immediately, so check the contract terms before leaving the depot.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/2.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Shield className="w-6 h-6" />}
@@ -119,7 +119,7 @@ const DrivingGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">On right of way, the usual European rule applies at unsigned intersections: the vehicle from the right has priority, while roundabouts generally favor traffic already circulating unless markings say otherwise. That matters near the Korinthos interchange, the Isthmos approach roads, and local junctions heading toward Mycenae, Tiryns, and the Argolic Gulf coast.</p>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/3.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Plane className="w-6 h-6" />}
@@ -147,7 +147,7 @@ const DrivingGuide = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> A rental agreement can still leave you responsible for statutory third-party liability and an excess/deductible even when the headline price says zero excess, so read the exclusions before you leave the depot.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/4.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

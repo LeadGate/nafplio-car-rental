@@ -7,3 +7,8 @@ dist/
 .env.local
 .DS_Store
 *.log
+
+# Local deploy helpers / caches
+__pycache__/
+*.pyc
+_zipdeploy.py

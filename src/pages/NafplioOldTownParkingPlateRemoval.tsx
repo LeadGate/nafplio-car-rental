@@ -95,7 +95,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">If you need a legal alternative, use the port lot, the Palamidi lot, or another public area outside the restricted core. For local context on access rules, the Δήμος Ναυπλιέων publishes municipal notices, and the Hellenic Police handles roadside enforcement.</p>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/2.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -117,7 +117,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Karathona Beach is relevant for planning because the Hellenic Society for the Protection of Nature withdrew its Blue Flag recognition in July 2025, so visitors should treat it as a parking overflow and leisure stop rather than a prestige award site. That date matters when you compare older blog posts with current conditions, especially in summer 2025.</p>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/3.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<MapPin className="w-6 h-6" />}
@@ -146,7 +146,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">If you prefer not to drive on a cruise day, the Open Top Bus Hellas M.E.P.E. service is a practical alternative, and KTEL Argolidas is the main public transport reference for regional departures around Argolis and the Peloponnese.</p>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/4.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Shield className="w-6 h-6" />}

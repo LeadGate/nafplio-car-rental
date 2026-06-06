@@ -110,7 +110,7 @@ const AirportPage = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> If you are traveling in August, reserve the KTEL Argolidas ticket in advance and compare it with a local pickup quote from Base Rent a Car or Alma Car Rental before deciding on the airport pick-up.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/2.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<MapPin className="w-6 h-6" />}
@@ -140,7 +140,7 @@ const AirportPage = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> If your trip includes Palamidi Fortress, Bourtzi, and Akronafplia on the same day, choose a compact model such as a Fiat Panda, Hyundai i10, or Toyota Aygo for easier parking in the old town.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/3.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -170,7 +170,7 @@ const AirportPage = () => {
           </ul>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Nafplio car rental" />
+      <ImageDivider image="/4.webp" alt="Nafplio car rental" />
 
       <Section
         icon={<HelpCircle className="w-6 h-6" />}
