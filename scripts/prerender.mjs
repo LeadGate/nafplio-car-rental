@@ -166,6 +166,7 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         publisher: cfg.article.publisher || routesDefaults.publisher,
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
       };
+      if (cfg.article.articleBody) article.articleBody = cfg.article.articleBody;
       if (cfg.article.wordCount) article.wordCount = cfg.article.wordCount;
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(article, null, 2)}\n    </script>`);
     }
