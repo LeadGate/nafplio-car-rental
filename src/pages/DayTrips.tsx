@@ -58,7 +58,7 @@ const DayTrips = () => {
       <SEOHead
         title="Mycenae & Epidaurus by Car from Nafplio"
         description="Nafplio in Argolis, Peloponnese places Mycenae, Epidaurus, and Tiryns within easy reach for a one- or two-day UNESCO road trip. Mycenae is 21 km from"
-        canonical="https://nafplio-car-rental.com/day-trips-from-nafplio"
+        canonical="https://nafplio-car-rental.com/day-trips-from-nafplio/"
       />
 
       <Breadcrumbs items={[{ label: "Day Trips" }]} />

@@ -56,7 +56,7 @@ const AboutPage = () => {
       <SEOHead
         title="About — How We Research Nafplio Car Rentals"
         description="How this independent Nafplio Car Rental comparison is built — sourced from ELSTAT, Bank of Greece Act 195/3, the Hellenic Ministry of Culture, the 2026 Olympia Odos and Moreas toll tables, and Law 5209/2025."
-        canonical="https://nafplio-car-rental.com/about"
+        canonical="https://nafplio-car-rental.com/about/"
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

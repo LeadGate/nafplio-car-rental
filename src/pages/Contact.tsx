@@ -56,7 +56,7 @@ const ContactPage = () => {
       <SEOHead
         title="Contact — Nafplio Car Rental Editors"
         description="Nafplio Car Rental Editors is the independent comparison team behind nafplio-car-rental.com, and the team does not handle bookings, deposits, or vehicle"
-        canonical="https://nafplio-car-rental.com/contact"
+        canonical="https://nafplio-car-rental.com/contact/"
       />
 
       <Breadcrumbs items={[{ label: "Contact Page" }]} />

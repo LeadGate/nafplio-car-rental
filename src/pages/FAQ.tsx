@@ -152,7 +152,7 @@ const FAQ = () => {
       <SEOHead
         title="Nafplio Car Rental FAQ — Pickup, Insurance & Parking"
         description="# Frequently Asked Questions — Nafplio Car Rental This FAQ answers 12 common Nafplio car-rental questions with local route, insurance, and parking"
-        canonical="https://nafplio-car-rental.com/nafplio-car-rental-faq"
+        canonical="https://nafplio-car-rental.com/nafplio-car-rental-faq/"
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />
