@@ -11,7 +11,6 @@ const PrivacyPolicy = () => {
         title="Privacy Policy | Nafplio Car Rental"
         description="Privacy policy for Nafplio Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://nafplio-car-rental.com/privacy/"
-        noindex
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />
