@@ -170,7 +170,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
       </Section>
 
       <div className="flex justify-center py-16 mt-8">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+        <a href="/#compare-cars" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>
   );
