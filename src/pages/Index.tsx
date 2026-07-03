@@ -55,7 +55,7 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Nafplio Car Rental — Compare Local Prices"
+        title="Nafplio Car Rental — Local Prices & Athens Airport Pickup"
         description="Nafplio, the First Capital of Greece, sits in Argolis in the Peloponnese, 169 km from Athens International Airport (ATH). ELSTAT recorded 297,320 arrivals"
         canonical="https://nafplio-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
