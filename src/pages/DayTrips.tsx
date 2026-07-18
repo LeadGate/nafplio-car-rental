@@ -78,7 +78,7 @@ const DayTrips = () => {
         icon={<Car className="w-6 h-6" />}
         title="The Three Sites at a Glance — Tickets, Hours, and Access"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">The Hellenic Ministry of Culture and hhticket.gr publish the official 2026 ticketing data for Mycenae, Epidaurus, and Tiryns, and the figures below are the ones to use for planning. Mycenae and Epidaurus each list a full ticket of €20 and a reduced ticket of €10, while Tiryns lists €10 full and €5 reduced; peak-season hours from 02.05.2026 run 08:00–20:00 for Mycenae and Epidaurus, and 08:30–15:30 year-round for Tiryns. There is no formal combo ticket covering all three sites together, even though they sit inside the UNESCO Argolis archaeological cluster.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">The three best day trips from Nafplio are Mycenae (21 km), Epidaurus (26 km), and Tiryns (4 km) — a UNESCO cluster in Argolis, Peloponnese that a rental car reaches in roughly 10–31 minutes each. For 2026 the Hellenic Ministry of Culture and hhticket.gr list a full ticket of €20 (reduced €10) for both Mycenae and Epidaurus, and €10 full (€5 reduced) for Tiryns; peak-season hours from 02.05.2026 run 08:00–20:00 for Mycenae and Epidaurus, and 08:30–15:30 year-round for Tiryns. There is no formal combo ticket covering all three sites together, even though Mycenae, Epidaurus, and Tiryns sit inside the UNESCO Argolis archaeological cluster.</p>
           <DataTable
             headers={["Site", "Full Ticket", "Reduced", "Hours", "Combined Ticket Details", "Free Admission Days"]}
             rows={[

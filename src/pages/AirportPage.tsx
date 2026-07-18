@@ -79,7 +79,7 @@ const AirportPage = () => {
         icon={<Plane className="w-6 h-6" />}
         title="Route 1 — Drive Direct from Athens Airport to Nafplio"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">Driving from Athens International Airport to Nafplio is the most flexible choice for travelers who want a car immediately after landing and plan to explore the Peloponnese beyond Nafplio. The route passes through Attiki Odos, Olympia Odos, and Moreas A7 before the final EO Argous–Nafpliou section into Argolis.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Driving from Athens International Airport (ATH) to Nafplio covers 169 km in about 2 hours 5 minutes, with one-way tolls of €4.60–€7.55 for a standard car — the most flexible option for travelers who want a car immediately after landing and plan to explore the Peloponnese beyond Nafplio. The Athens Airport to Nafplio route passes through Attiki Odos, Olympia Odos, and Moreas A7 before the final EO Argous–Nafpliou section into Argolis.</p>
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Athens Airport to Nafplio driving sequence:</strong></p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li><strong>Athens Airport exit:</strong> Follow signs for Attiki Odos toward Elefsina, then merge onto the main motorway network.</li>

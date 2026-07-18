@@ -181,6 +181,8 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
       };
       if (cfg.article.articleBody) article.articleBody = cfg.article.articleBody;
+      // GEO mitigation: embed article body prose so no-JS AI crawlers can read content.
+      if (cfg.article.body) article.articleBody = cfg.article.body;
       if (cfg.article.wordCount) article.wordCount = cfg.article.wordCount;
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(article, null, 2)}\n    </script>`);
     }
