@@ -57,7 +57,7 @@ const AirportPage = () => {
   return (
     <Layout>
       <SEOHead
-        title="Athens Airport (ATH) to Nafplio Drive Guide"
+        title="Athens Airport to Nafplio: 169 km Drive, Tolls & Car Hire"
         description="Athens Airport to Nafplio is a 169 km transfer that typically takes about 2 hours and 5 minutes by car, with one-way tolls of €4.60 to €7.55 for a"
         canonical="https://nafplio-car-rental.com/nafplio-airport-car-rental/"
       />
