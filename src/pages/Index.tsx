@@ -56,7 +56,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="Nafplio Car Rental — Local Prices & Athens Airport Pickup"
-        description="Nafplio, the First Capital of Greece, sits in Argolis in the Peloponnese, 169 km from Athens International Airport (ATH). ELSTAT recorded 297,320 arrivals"
+        description="Compare Nafplio car rental from local agencies: Athens Airport (ATH) pickup, 2026 toll table €4.60–€7.55 and the new Greek traffic rules. Independent local guide."
         canonical="https://nafplio-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
       />
@@ -78,6 +78,7 @@ const Index = () => {
       >
           <p className="text-gray-700 mb-4 leading-relaxed">A Nafplio car rental typically starts at €18/day for a broker-listed Ford Fiesta and rises to €27/day for an automatic Skoda Octavia or €40/day for a Kia Sportage, but those prices are published broker rates and not a confirmed local-agency quote. Seasonal pricing shifts materially: Stressfreecarrental and Skyscanner commonly show €40–€43/day in April, May, September, and October, while summer demand in August can push walk-up rates above €300/day at major brands. Momondo also shows December as the cheapest month for car rental in Nafplio.</p>
           <DataTable headers={["Category", "Off-season (Nov\u2013Mar)", "High-season (Jul\u2013Aug)"]} rows={[["Mini/Economy manual", "\u20ac18\u2013\u20ac28/day", "\u20ac40\u2013\u20ac60/day"], ["Compact automatic", "\u20ac27\u2013\u20ac35/day", "\u20ac55\u2013\u20ac80/day"], ["Family SUV", "\u20ac40\u2013\u20ac55/day", "\u20ac80\u2013\u20ac120/day"]]} />
+          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Availability check, 9 August 2026.</strong> For a 19\u201326 August pickup, the Athens hub that serves Nafplio listed 79 offers, from \u20ac45/day (Mitsubishi Space Star) with a \u20ac76/day median; automatics started at \u20ac53/day. Only 15 of those 79 offers deliver the car to an address, so treat delivery to Nafplio as the exception rather than the rule \u2014 the reliable plan is to collect in Athens and drive the 169 km yourself.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">Insurance terms matter because quotes are often incomplete. In Greece, CDW usually carries an excess/deductible or franchise of €600–€1,200, while SCDW or FDW can reduce that to zero excess or full coverage for an extra €8–€15/day; WUG is often sold as an add-on for wheels, underside, and glass. All rentals must still include statutory third-party liability under Bank of Greece Act 195/3/29.11.2021, so a quote that omits that base cover is not compliant.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Ask each agency to confirm, in writing, whether the quote includes CDW, SCDW, FDW, WUG, and the size of the excess/deductible before you preauthorise the card. Nafplio agencies often use different wording for the same coverage, so the booking voucher should name the insurer and the franchise amount.</p></InfoBox>
       </Section>

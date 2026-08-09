@@ -166,7 +166,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
         alt
       >
           <DataTable headers={["Area", "Best use", "Risk level"]} rows={[["Akti Miaouli", "Main visitor parking", "Low"], ["Old Town interior", "Do not park", "High"], ["Palamidi", "Fortress visits", "Low"], ["Arvanitia / Acronafplia", "Early short stays", "Medium"], ["Karathona", "Overflow parking", "Low for parking, medium for distance"]]} />
-          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio parking is easiest when you stay outside the resident-only core, use the port lot or a fortress lot, and treat Old Town as a walking destination rather than a driving destination. For a full driving plan through Argolis, combine this page with the <a href="/nafplio-airport-car-rental/" className="text-primary underline hover:text-accent">Athens airport drive guide</a> and the <strong>Mycenae and Epidaurus by car</strong> page.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Nafplio parking is easiest when you stay outside the resident-only core, use the port lot or a fortress lot, and treat Old Town as a walking destination rather than a driving destination. For a full driving plan through Argolis, combine this page with the <a href="/nafplio-airport-car-rental/" className="text-primary underline hover:text-accent">Athens airport drive guide</a> and the <strong>Mycenae and Epidaurus by car</strong> page. If you have not booked the car yet, start with our <a href="/" className="text-primary underline hover:text-accent">Nafplio car hire comparison</a> — the same Athens pickup that decides your parking plan also decides your rate.</p>
       </Section>
 
       <div className="flex justify-center py-16 mt-8">
