@@ -55,7 +55,7 @@ const ContactPage = () => {
     <Layout>
       <SEOHead
         title="Contact — Nafplio Car Rental Editors"
-        description="Nafplio Car Rental Editors is the independent comparison team behind nafplio-car-rental.com, and the team does not handle bookings, deposits, or vehicle"
+        description="Editorial contact for the independent Nafplio Car Rental comparison; the team takes no bookings and replies within 2–3 business days."
         canonical="https://nafplio-car-rental.com/contact/"
       />
 

@@ -57,7 +57,7 @@ const NafplioOldTownParkingPlateRemoval = () => {
     <Layout>
       <SEOHead
         title="Parking in Nafplio: Free Port Lot vs Old Town Rules (2026)"
-        description="Park in the free Akti Miaouli port lot — never inside Nafplio Old Town. Resident-only sticker zone, plate removal documented October 2024 turns a one-day rental into a 10-day rental."
+        description="Park in the free Akti Miaouli port lot, never inside Nafplio Old Town: police plate removal can freeze a rental for 10 days."
         canonical="https://nafplio-car-rental.com/nafplio-old-town-parking/"
       />
 

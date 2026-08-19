@@ -151,7 +151,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Nafplio Car Rental FAQ: Licences, Age & Costs Answered"
-        description="# Frequently Asked Questions — Nafplio Car Rental This FAQ answers 12 common Nafplio car-rental questions with local route, insurance, and parking"
+        description="Twelve answers on Nafplio car rental: pickup, insurance, deposits, automatic transmission, parking and the 2026 Greek traffic code."
         canonical="https://nafplio-car-rental.com/nafplio-car-rental-faq/"
       />
 

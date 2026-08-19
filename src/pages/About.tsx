@@ -55,7 +55,7 @@ const AboutPage = () => {
     <Layout>
       <SEOHead
         title="About — How We Research Nafplio Car Rentals"
-        description="How this independent Nafplio Car Rental comparison is built — sourced from ELSTAT, Bank of Greece Act 195/3, the Hellenic Ministry of Culture, the 2026 Olympia Odos and Moreas toll tables, and Law 5209/2025."
+        description="How this independent Nafplio car rental comparison is built, from ELSTAT and Bank of Greece data to the 2026 Olympia Odos and Moreas tolls."
         canonical="https://nafplio-car-rental.com/about/"
       />
 

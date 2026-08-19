@@ -56,7 +56,7 @@ const DrivingGuide = () => {
     <Layout>
       <SEOHead
         title="Driving in Nafplio: 2026 Greek Traffic Code Rules & Fines"
-        description="Driving in Argolis in 2026 is governed by Law 5209/2025, as amended by Law 5290/2026, and the practical effect for Nafplio car rentals is stricter"
+        description="Driving in Argolis under Law 5209/2025: Nafplio, Argos and Tolo default to 30 km/h, rural roads stay at 90 km/h and motorways at 120 km/h."
         canonical="https://nafplio-car-rental.com/driving-in-nafplio/"
       />
 
