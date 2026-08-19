@@ -151,7 +151,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Nafplio Car Rental FAQ: Licences, Age & Costs Answered"
-        description="Twelve answers on Nafplio car rental: pickup, insurance, deposits, automatic transmission, parking and the 2026 Greek traffic code."
+        description="Nafplio car rental answers: IDP rules, minimum age, deposit holds up to €1,000, automatics, and Euro 95 at €1.986–€2.149 per litre."
         canonical="https://nafplio-car-rental.com/nafplio-car-rental-faq/"
       />
 
